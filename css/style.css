@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	margin: 0% 5%;
+	font-family: sans-serif;
+
+}
+.logo{
+    color: white;
+    font-size:3vw;
+    position: relative;
+    margin-left: 5%;
+    display: block;
+    text-shadow: -3px 1px 1px #2f5;
+
+}
+
+
+
+.nav{
+	background-color: rgb(8,25,45);
+	height: 100%;
+	width: auto;
+	display: flex;
+	justify-content: space-between;
+	transition: 2s;
+	font-size:2vw;
+
+}
+.menu li{
+	 display: inline-block;
+     font-size: 20px;
+     list-style-type: none;
+
+
+
+ }
+ .menu a{
+	text-decoration: none;
+	color: rgb(255,255,255);
+	padding:1vw 1vw;
+	transition: 2s;
+
+}
+.menu .ca{
+	color: red;
+
+}
+.menu .ca:hover{
+	color: white;
+	transition: 2s;
+}
+.menu li a:hover{
+	background-color: #1dea77;
+	color: white;
+	transition: 2s;
+
+}
+.header1{
+	display: flex;
+	background-color: rgb(10,24,61);
+	align-items: center;
+	background-size: cover;
+    background-position: center;
+    margin:auto;
+    text-align: justify;
+    position: relative;
+    height: 700PX;
+    width: 100%; 
+
+	
+	
+}
+
+.headerbg{
+	right:10%;
+	top: 20%;
+	position: absolute;
+}
+
+.content{
+	position: absolute;
+	color: white;
+	margin: 0px 40px;
+	top: 10%;
+	left: 5%;
+	font-size:2vw;
+	border: 1px solid red;
+	height: 100%;
+	width: 40%;
+	border-style: none;
+
+	
+
+
+
+
+}
+
+
+.content h1{
+	font-size:5vw;
+	text-shadow: 3px -3px 1px rgba(53, 255, 47, 0.48);
+	
+}
+
+
+.content p{
+    color: #08ff00b5;
+    margin-top: 5px;
+
+}
+
+
+.bdown{
+	padding: 10px;
+	background-image: linear-gradient(#8a8931, #c22a2a);
+	color: white;
+	border-style: none;
+	height: 50px;
+	width: 30%;
+	margin: 30px 10px 10px 0px;
+    border-radius: 50px;
+    transition: 2s;
+}
+.bdown:hover{
+	background-image: linear-gradient(#08350d, #33ff52);
+	
+}
+.bstrat{
+	padding: 10px;
+	background-image: linear-gradient(#c607b1, #c63b1b);
+	color: white;
+	border-style: none;
+	height: 50px;
+	width: 30%;
+	margin: 30px 10px 10px 10px;
+	border-radius: 50px;
+	
+
+}
+.bstrat:hover{
+	background-image: linear-gradient(#63B76C,#c63b1b);
+	
+
+}
+
+@media only screen and (min-width: 300 px) {
+  /* For mobile phones: */
+
+    
+   
+
+  
+}
+
+
